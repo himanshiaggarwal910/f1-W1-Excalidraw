@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+body{
+    text-align: center;
+    margin:10px;
+}
+#main{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.hero{
+    border:1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    padding:0 20px;
+}
+.heroo{
+    border:1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:20px;
+    padding: 10px;
+}
+.lib,.dash{
+    display: inline-block;
+}
+.dash{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-right:12px;
+}
+i{
+    margin-right:8px;
+    margin-left: 8px;
+}
+i:hover{
+    background-color: rgb(234, 234, 234);
+}
+#task{
+    position: fixed;
+    right:5rem;
+}
+
+#inter{
+    margin-top:11%;
+}
+
+p{
+    color:rgb(173, 173, 173);
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+.content{
+    text-align: center;
+}
+
+h5{
+    color:rgb(173, 173, 173);
+    margin-left:45%;
+    font-size: 1rem;
+    text-align: start;
+    font-family: monospace;
+
+}
+
+.undo-redo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid rgb(234, 234, 234);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .undo-redo:hover{
+      background-color: rgb(234, 234, 234);
+      cursor: pointer;
+  }
+  
+  .undo-redo button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .undo-redo button:focus {
+    outline: none;
+  }
+  
+  .undo-redo button i {
+    font-size: 20px;
+  }
+  
+  .undo-redo .undo {
+    margin-right: auto;
+  }
+  
+  .undo-redo .redo {
+    margin-left: auto;
+  }
+  
+  .undo-redo .separator {
+    width: 1px;
+    height: 40px;
+    background-color: #ccc;
+  }
